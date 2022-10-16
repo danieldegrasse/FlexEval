@@ -11789,30 +11789,37 @@ Source: www.kingbright.com</description>
 <library name="USB4105-GF-A">
 <packages>
 <package name="GCT_USB4105-GF-A">
-<wire x1="-4.32" y1="0.7" x2="-4.02" y2="0.4" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.02" y1="0.4" x2="-4.02" y2="-0.4" width="0.0001" layer="46"/>
-<wire x1="-4.02" y1="-0.4" x2="-4.32" y2="-0.7" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="-0.7" x2="-4.62" y2="-0.4" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.62" y1="-0.4" x2="-4.62" y2="0.4" width="0.0001" layer="46"/>
-<wire x1="-4.62" y1="0.4" x2="-4.32" y2="0.7" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.32" y1="0.7" x2="4.62" y2="0.4" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.62" y1="0.4" x2="4.62" y2="-0.4" width="0.0001" layer="46"/>
-<wire x1="4.62" y1="-0.4" x2="4.32" y2="-0.7" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.32" y1="-0.7" x2="4.02" y2="-0.4" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.02" y1="-0.4" x2="4.02" y2="0.4" width="0.0001" layer="46"/>
-<wire x1="4.02" y1="0.4" x2="4.32" y2="0.7" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="5.03" x2="-4.02" y2="4.73" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.02" y1="4.73" x2="-4.02" y2="3.63" width="0.0001" layer="46"/>
-<wire x1="-4.02" y1="3.63" x2="-4.32" y2="3.33" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="3.33" x2="-4.62" y2="3.63" width="0.0001" layer="46" curve="-90"/>
-<wire x1="-4.62" y1="3.63" x2="-4.62" y2="4.73" width="0.0001" layer="46"/>
-<wire x1="-4.62" y1="4.73" x2="-4.32" y2="5.03" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.32" y1="5.03" x2="4.62" y2="4.73" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.62" y1="4.73" x2="4.62" y2="3.63" width="0.0001" layer="46"/>
-<wire x1="4.62" y1="3.63" x2="4.32" y2="3.33" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.32" y1="3.33" x2="4.02" y2="3.63" width="0.0001" layer="46" curve="-90"/>
-<wire x1="4.02" y1="3.63" x2="4.02" y2="4.73" width="0.0001" layer="46"/>
-<wire x1="4.02" y1="4.73" x2="4.32" y2="5.03" width="0.0001" layer="46" curve="-90"/>
+<description>USB4105-GF-A&lt;br/&gt;
+&lt;b&gt;Modified footprint for JLCPCB&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Milling holes extended from 0.6mm to 0.66 mm&lt;/li&gt;
+&lt;li&gt;GND pads moved upwards to avoid clearance issue&lt;/li&gt;
+&lt;li&gt;All pads extended by 0.2mm to aid in hand soldering&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-4.32" y1="0.7" x2="-3.99" y2="0.4" width="0" layer="46" curve="-90"/>
+<wire x1="-3.99" y1="0.4" x2="-3.99" y2="-0.4" width="0" layer="46"/>
+<wire x1="-3.99" y1="-0.4" x2="-4.32" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="-0.7" x2="-4.65" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="-4.65" y1="-0.4" x2="-4.65" y2="0.4" width="0" layer="46"/>
+<wire x1="-4.65" y1="0.4" x2="-4.32" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="0.7" x2="4.65" y2="0.4" width="0" layer="46" curve="-90"/>
+<wire x1="4.65" y1="0.4" x2="4.65" y2="-0.4" width="0" layer="46"/>
+<wire x1="4.65" y1="-0.4" x2="4.32" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="-0.7" x2="3.99" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="3.99" y1="-0.4" x2="3.99" y2="0.4" width="0" layer="46"/>
+<wire x1="3.99" y1="0.4" x2="4.32" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="5.03" x2="-3.99" y2="4.73" width="0" layer="46" curve="-90"/>
+<wire x1="-3.99" y1="4.73" x2="-3.99" y2="3.63" width="0" layer="46"/>
+<wire x1="-3.99" y1="3.63" x2="-4.32" y2="3.33" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="3.33" x2="-4.65" y2="3.63" width="0" layer="46" curve="-90"/>
+<wire x1="-4.65" y1="3.63" x2="-4.65" y2="4.73" width="0" layer="46"/>
+<wire x1="-4.65" y1="4.73" x2="-4.32" y2="5.03" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="5.03" x2="4.65" y2="4.73" width="0" layer="46" curve="-90"/>
+<wire x1="4.65" y1="4.73" x2="4.65" y2="3.63" width="0" layer="46"/>
+<wire x1="4.65" y1="3.63" x2="4.32" y2="3.33" width="0.0001" layer="46" curve="-90"/>
+<wire x1="4.32" y1="3.33" x2="3.99" y2="3.63" width="0" layer="46" curve="-90"/>
+<wire x1="3.99" y1="3.63" x2="3.99" y2="4.73" width="0" layer="46"/>
+<wire x1="3.99" y1="4.73" x2="4.32" y2="5.03" width="0" layer="46" curve="-90"/>
 <wire x1="-4.79" y1="4.93" x2="4.79" y2="4.93" width="0.1" layer="51"/>
 <wire x1="4.79" y1="4.93" x2="4.79" y2="-2.6" width="0.1" layer="51"/>
 <wire x1="4.79" y1="-2.6" x2="-4.79" y2="-2.6" width="0.1" layer="51"/>
@@ -11830,24 +11837,24 @@ Source: www.kingbright.com</description>
 <wire x1="4.8" y1="-2.6" x2="8.4" y2="-2.6" width="0.1" layer="51"/>
 <wire x1="-4.79" y1="2.65" x2="-4.79" y2="1.4" width="0.2" layer="21"/>
 <wire x1="4.79" y1="2.65" x2="4.79" y2="1.4" width="0.2" layer="21"/>
-<pad name="S2" x="-4.32" y="0" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<pad name="S3" x="4.32" y="0" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<pad name="S1" x="-4.32" y="4.18" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
-<pad name="S4" x="4.32" y="4.18" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
+<pad name="S2" x="-4.32" y="0" drill="0.66" diameter="1" shape="long" rot="R90"/>
+<pad name="S3" x="4.32" y="0" drill="0.66" diameter="1" shape="long" rot="R90"/>
+<pad name="S1" x="-4.32" y="4.18" drill="0.66" diameter="1.05" shape="long" rot="R90"/>
+<pad name="S4" x="4.32" y="4.18" drill="0.66" diameter="1.05" shape="long" rot="R90"/>
 <hole x="2.89" y="3.68" drill="0.65"/>
 <hole x="-2.89" y="3.68" drill="0.65"/>
-<smd name="A1_B12" x="-3.2" y="4.755" dx="0.6" dy="1.15" layer="1"/>
-<smd name="B1_A12" x="3.2" y="4.755" dx="0.6" dy="1.15" layer="1"/>
-<smd name="A4_B9" x="-2.4" y="4.755" dx="0.6" dy="1.15" layer="1"/>
-<smd name="B4_A9" x="2.4" y="4.755" dx="0.6" dy="1.15" layer="1"/>
-<smd name="A7" x="0.25" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A6" x="-0.25" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B6" x="0.75" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A8" x="1.25" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B5" x="1.75" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B7" x="-0.75" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A5" x="-1.25" y="4.755" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B8" x="-1.75" y="4.755" dx="0.3" dy="1.15" layer="1"/>
+<smd name="A1_B12" x="-3.2" y="4.905" dx="0.6" dy="1.25" layer="1"/>
+<smd name="B1_A12" x="3.2" y="4.905" dx="0.6" dy="1.25" layer="1"/>
+<smd name="A4_B9" x="-2.4" y="4.855" dx="0.6" dy="1.35" layer="1"/>
+<smd name="B4_A9" x="2.4" y="4.855" dx="0.6" dy="1.35" layer="1"/>
+<smd name="A7" x="0.25" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="A6" x="-0.25" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="B6" x="0.75" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="A8" x="1.25" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="B5" x="1.75" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="B7" x="-0.75" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="A5" x="-1.25" y="4.855" dx="0.3" dy="1.35" layer="1"/>
+<smd name="B8" x="-1.75" y="4.855" dx="0.3" dy="1.35" layer="1"/>
 </package>
 </packages>
 <symbols>
